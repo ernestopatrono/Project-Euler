@@ -3,4 +3,4 @@
 Problem #1
 """
 
-print(str(8148))
+print(str(81486))
