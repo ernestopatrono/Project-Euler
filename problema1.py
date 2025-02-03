@@ -3,16 +3,15 @@
 Problem #1
 """
 
-limit = 1000
-
-factors = 3 , 5
+LIMIT = 1000
+FACTORS = 3 , 5
 
 sum = 0
 
-for n in range(limit):
-    for factor in factors:
-        if n % factor == 0:
-            sum += n
+for i in range(LIMIT):
+    for factor in FACTORS:
+        if i % factor == 0:
+            sum += i
             break
         
 print(sum)
