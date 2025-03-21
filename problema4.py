@@ -3,7 +3,7 @@
 Problem #4
 """
 
-DIGITS = 7
+DIGITS = 6
 
 largest_palindrome = 100 ** (DIGITS-1)
 
